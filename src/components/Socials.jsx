@@ -14,12 +14,12 @@ const Socials = () => {
   };
 
   return (
-    <div className="flex font-sans justify-center text-textColor gap-[70px] items-center h-full">
+    <div className="flex justify-center text-textColor gap-8 items-center h-full p-6 sm:p-8 lg:p-12">
       <a
         href="https://www.linkedin.com/in/anirudh-rakonda-ba255927b/"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center text-m hover:text-blue-500 transition-colors duration-200"
+        className="flex items-center text-m hover:text-blue-500 transition-colors duration-200 underline"
       >
         LinkedIn
       </a>
@@ -27,13 +27,13 @@ const Socials = () => {
         href="https://github.com/AnirudhRakonda"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center text-m hover:text-gray-400 transition-colors duration-200"
+        className="flex items-center text-m hover:text-gray-400 transition-colors duration-200 underline"
       >
         GitHub
       </a>
       <button
         onClick={copyToClipboard}
-        className="flex items-center text-m hover:text-green-400 transition-colors duration-200 focus:outline-none"
+        className="flex items-center text-m hover:text-green-400 transition-colors duration-200 focus:outline-none underline"
       >
         Phone
       </button>
