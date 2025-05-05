@@ -4,39 +4,45 @@ import { FaDownload } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className="p-4 sm:p-6 w-full max-w-sm mx-auto flex flex-col h-full">
-      <h1 className="font-heading text-3xl sm:text-4xl mb-4 sm:mb-6 text-left tracking-wide">About Me</h1>
+    <div className="px-4 py-6 sm:p-6 w-full max-w-md mx-auto flex flex-col h-full">
+      {/* Heading */}
+      <h1 className="font-heading text-3xl sm:text-4xl mb-4 sm:mb-6 tracking-wide">
+        About Me
+      </h1>
 
-      <div className="space-y-3 sm:space-y-4 font-sans text-left pl-6 sm:pl-12 tracking-wide text-sm sm:text-base">
+      {/* Details */}
+      <div className="space-y-4 font-sans tracking-wide text-sm sm:text-base">
         <p className="font-light">
           UI/UX and Frontend dev intern at 
           <a
+            href="https://wissionaxis-m36s.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://wissionaxis-m36s.vercel.app/"
             className="underline ml-1"
           >
             Wission Axis
           </a>
         </p>
+
         <p className="font-extralight">
           CS ‘26 undergrad at
           <a
+            href="https://sreenidhi.edu.in"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://sreenidhi.edu.in"
-            className=" underline ml-1"
+            className="underline ml-1"
           >
             SNIST
           </a>
         </p>
+
         <p className="font-extralight">
           President @{' '}
           <strong>
             <a
+              href="https://cscsnist.tech/"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://cscsnist.tech/"
               className="underline"
             >
               Cyber Security Club
@@ -45,13 +51,15 @@ const About = () => {
         </p>
       </div>
 
+      {/* Spacer to push button down */}
       <div className="flex-grow" />
 
-      <div className="flex justify-end mt-6">
+      {/* Resume Button */}
+      <div className="flex justify-end mt-8 mr-[-20px] sm:mr-0">
         <a
           href="#"
           download
-          className="flex items-center gap-2 py-2 px-4 text-sm font-semibold text-cta bg-textColor rounded-[10px] hover:bg-gray-800 transition-colors tracking-wide"
+          className="flex items-center gap-4 py-3 px-5 text-sm font-semibold text-cta bg-textColor rounded-[10px] hover:bg-gray-800 transition-colors"
         >
           Resume <FaDownload />
         </a>

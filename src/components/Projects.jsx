@@ -4,12 +4,12 @@ import { HiArrowTopRightOnSquare } from 'react-icons/hi2';
 
 const Projects = () => {
   const projectList = [
-    { name: 'Vaccine management', link: '#' },
-    { name: 'ArthGyan', link: '#' },
-    { name: 'Synapse', link: '#' },
-    { name: 'Elixer', link: '#' },
-    { name: 'CS club', link: '#' },
-    { name: 'Learning Rust', link: '#' },
+    { name: 'Vaccine management', link: 'https://github.com/AnirudhRakonda/Vaccine-Management-Platform' },
+    { name: 'ArthGyan', link: 'https://github.com/AnirudhRakonda/ArthGyan' },
+    { name: 'Synapse', link: 'https://github.com/AnirudhRakonda/Synapse' },
+    { name: 'Elixer', link: 'https://github.com/AnirudhRakonda/Elixir' },
+    { name: 'CS club', link: 'https://cscsnist.tech/' },
+    { name: 'Learning Rust', link: 'https://github.com/AnirudhRakonda/Learning-Rust' },
   ];
 
   return (
